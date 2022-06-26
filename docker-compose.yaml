@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  teamsDatabase:
+    container_name: insider_project
+    image: mariadb:10.5.8
+    ports:
+      - '3306:3306'
+    platform: linux/x86_64
+    networks:
+      insider_network:
+        aliases:
+          - insider_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=insiderDb
+      - MYSQL_PASSWORD=root
+
+  cache:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server
+    networks:
+      insider_network:
+        aliases:
+          - insider_cache
+networks:
+  insider_network:
