@@ -18,4 +18,4 @@ go run app/main.go
 ```
 Postman Collection
 
-https://app.getpostman.com/join-team?invite_code=585ddc6699749307ffd51f64e8d15dd2&target_code=976b34a4d73d327dabbbecf4b40e5bf2
+https://mega.nz/file/slIVxAQY#S3w46w1DXm81TLz-z9xu_zT0mmZk2tZEu0DZTIV8iZk
