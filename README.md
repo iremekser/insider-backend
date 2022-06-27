@@ -16,4 +16,6 @@ Then click the Run button in main.go or run the following command from terminal.
 ```bash
 go run app/main.go 
 ```
+Postman Collection
 
+https://app.getpostman.com/join-team?invite_code=585ddc6699749307ffd51f64e8d15dd2&target_code=976b34a4d73d327dabbbecf4b40e5bf2
