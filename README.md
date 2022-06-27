@@ -12,5 +12,8 @@ First, run the following command from terminal.
 ```bash
 make api-up
 ```
-Then run the main.go
+Then click the Run button in main.go or run the following command from terminal.
+```bash
+go run app/main.go 
+```
 
